@@ -87,7 +87,7 @@ function Nav(props) {
           </Typography> */}
 
           <img
-            src="./gymwhere-website/images/logoWithLetters.png"
+            src="./images/logoWithLetters.png"
             alt="logo"
             style={{
               // flexGrow: 1,

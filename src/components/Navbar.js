@@ -18,12 +18,14 @@ import useScrollPosition from "../hooks/useScrollPosition";
 import LanguageIcon from "@mui/icons-material/Language";
 import { Stack } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import { useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = ["Home", "Discover", "nutrition Plans", "personal training"];
 
 function Navbar(props) {
   const { window } = props;
+  const nav = useNavigate();
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const scrollPosition = useScrollPosition();
 
@@ -132,11 +134,10 @@ function Navbar(props) {
               }}
               className="main-btn"
               onClick={() => {
-                const pricing = document.getElementById("pricing");
-                pricing.scrollIntoView({ behavior: "smooth" });
+                nav("/gymwhere-website/demo");
               }}
             >
-              Subscripe <KeyboardArrowRightIcon />
+              Get Voucher <KeyboardArrowRightIcon />
             </Button>
           </Box>
         </Toolbar>

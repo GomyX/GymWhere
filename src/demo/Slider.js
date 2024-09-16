@@ -46,7 +46,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
+              src="./images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -72,11 +72,7 @@ function Slider() {
             <Typography variant="h5" color="white" sx={{ textAlign: "center" }}>
               Nutrition Plans
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 11.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 11.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -101,11 +97,7 @@ function Slider() {
             >
               AI personal trainer
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 15.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 15.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -118,7 +110,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/patrick-kool-zTwmxau8DlQ-unsplash.jpg"
+              src="./images/patrick-kool-zTwmxau8DlQ-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -144,11 +136,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Stay fit
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 17.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 17.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -170,11 +158,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Anytime, Anywhere
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 16.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 16.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -187,7 +171,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
+              src="./images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -213,11 +197,7 @@ function Slider() {
             <Typography variant="h5" color="white" sx={{ textAlign: "center" }}>
               Nutrition Plans
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 11.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 11.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -242,11 +222,7 @@ function Slider() {
             >
               AI personal trainer
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 15.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 15.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -259,7 +235,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/patrick-kool-zTwmxau8DlQ-unsplash.jpg"
+              src="./images/patrick-kool-zTwmxau8DlQ-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -285,11 +261,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Stay fit
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 17.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 17.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -311,11 +283,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Anytime, Anywhere
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 1.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 1.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -352,11 +320,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Stay fit
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 17.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 17.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -378,11 +342,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Anytime, Anywhere
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 1.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 1.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -395,7 +355,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg"
+              src="./images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -421,11 +381,7 @@ function Slider() {
             <Typography variant="h5" color="white" sx={{ textAlign: "center" }}>
               Nutrition Plans
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 11.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 11.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -450,11 +406,7 @@ function Slider() {
             >
               AI personal trainer
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 15.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 15.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -467,7 +419,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/nathan-dumlao-NXMZxygMw8o-unsplash.jpg"
+              src="./images/nathan-dumlao-NXMZxygMw8o-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -493,11 +445,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Stay fit
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 17.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 17.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -519,11 +467,7 @@ function Slider() {
             <Typography variant="h4" color="white">
               Anytime, Anywhere
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 1.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 1.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -536,7 +480,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg"
+              src="./images/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
@@ -562,11 +506,7 @@ function Slider() {
             <Typography variant="h5" color="white" sx={{ textAlign: "center" }}>
               Nutrition Plans
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 11.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 11.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -591,11 +531,7 @@ function Slider() {
             >
               AI personal trainer
             </Typography>
-            <img
-              src="./gymwhere-website/images/image 15.png"
-              width="80px"
-              alt="icon"
-            />
+            <img src="./images/image 15.png" width="80px" alt="icon" />
             <Typography variant="p" color="white">
               Coming Soon...
             </Typography>
@@ -608,7 +544,7 @@ function Slider() {
             }}
           >
             <img
-              src="./gymwhere-website/images/nathan-dumlao-NXMZxygMw8o-unsplash.jpg"
+              src="./images/nathan-dumlao-NXMZxygMw8o-unsplash.jpg"
               width="230px"
               height="300px"
               alt="icon"
