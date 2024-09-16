@@ -20,9 +20,9 @@ import { Stack } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Discover", "nutrition Plans", "personal training"];
+const navItems = ["Home", "About", "Features"];
 
-function Navbar(props) {
+function Nav(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const scrollPosition = useScrollPosition();
@@ -63,7 +63,7 @@ function Navbar(props) {
           color: "black",
           padding: {
             sm: "5px",
-            md: scrollPosition > 10 ? "10px 80px" : "60px 80px",
+            md: scrollPosition > 10 ? "20px 50px" : "20px 50px",
           },
         }}
         elevation={0}
@@ -87,22 +87,25 @@ function Navbar(props) {
           </Typography> */}
 
           <img
-            src="./images/logoWithLettersWhite.png"
+            src="./gymwhere-website/images/logoWithLetters.png"
             alt="logo"
             style={{
               // flexGrow: 1,
               display: { xs: "none", sm: "block" },
-              width: "250px",
-              marginRight: "auto",
+              width: "200px",
+              marginRight: "50px",
               padding: "10px 0",
             }}
           />
-          <Box sx={{ flexGrow: 1 }} />
-          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+          {/* <Box sx={{ flexGrow: 1 }} /> */}
+          <Box sx={{ flexGrow: 0, display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
               <Button
                 key={item}
-                sx={{ color: "#fff", fontSize: 15 }}
+                sx={{
+                  color: "#000 ",
+                  // fontSize: 15
+                }}
                 onClick={() => {
                   const element = document.getElementById(`${item}`);
                   element.scrollIntoView({ behavior: "smooth" });
@@ -112,33 +115,13 @@ function Navbar(props) {
               </Button>
             ))}
           </Box>
-          <Box sx={{ flexGrow: 1 }} />
           <Box>
-            <Button sx={{ color: "white", m: 2 }}>
+            <Button sx={{ color: "black", m: 2 }}>
               <LanguageIcon fontSize="medium" sx={{ m: 1 }} />
               <Typography variant="body2">EN</Typography>
             </Button>
-            <Button
-              variant="contained"
-              sx={{
-                borderRadius: "10px",
-                backgroundColor: "#f29603",
-                p: 1,
-                fontSize: "1.1em",
-                fontWeight: "bold",
-                letterSpacing: "1px",
-                transition: "0.3s ease",
-                ml: { xs: 2, sm: 1 },
-              }}
-              className="main-btn"
-              onClick={() => {
-                const pricing = document.getElementById("pricing");
-                pricing.scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Subscripe <KeyboardArrowRightIcon />
-            </Button>
           </Box>
+          <Box sx={{ flexGrow: 1 }} />
         </Toolbar>
       </AppBar>
       <nav>
@@ -168,7 +151,7 @@ function Navbar(props) {
   );
 }
 
-Navbar.propTypes = {
+Nav.propTypes = {
   /**
    * Injected by the documentation to work in an iframe.
    * You won't need it on your project.
@@ -176,4 +159,4 @@ Navbar.propTypes = {
   window: PropTypes.func,
 };
 
-export default Navbar;
+export default Nav;

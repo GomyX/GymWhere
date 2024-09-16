@@ -6,6 +6,7 @@ import Features from "./Features";
 import Gyms from "./Gyms";
 import Pricing from "./Pricing";
 import Footer from "./Footer";
+import LogoTicker from "./LogoTicker";
 
 function Landing() {
   return (
@@ -14,6 +15,7 @@ function Landing() {
         <Navbar />
         <Intro />
       </div>
+      <LogoTicker />
       <Features />
       <Gyms />
       <Pricing />
