@@ -134,7 +134,7 @@ function Navbar(props) {
               }}
               className="main-btn"
               onClick={() => {
-                nav("/gymwhere-website/demo");
+                nav("/demo");
               }}
             >
               Get Voucher <KeyboardArrowRightIcon />

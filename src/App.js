@@ -8,8 +8,8 @@ function App() {
     <div>
       <Routes>
         {/* <Route path="/" element={<Landing />} /> */}
-        <Route path="/gymwhere-website" element={<Landing />} />
-        <Route path="/gymwhere-website/demo" element={<Demo />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/demo" element={<Demo />} />
       </Routes>
       {/* <Landing /> */}
       {/* <Demo /> */}
