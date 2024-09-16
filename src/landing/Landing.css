@@ -11,7 +11,8 @@
   /* width: 100%; */
 }
 
-#Home {
+#Home,
+#Voucher {
   height: calc(100vh - 150px);
   display: flex;
   align-items: center;
@@ -20,6 +21,22 @@
 .txt-section {
   color: white;
   width: 400px;
+}
+
+.main-btn {
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.9em 2.1em;
+  display: inline-block;
+  /* margin-bottom: 40px; */
+  border-radius: 15px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #ff9f05;
+  transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
@@ -55,6 +72,7 @@
 .feature-img img {
   max-width: 100%;
   height: auto;
+  /* mask-image: linear-gradient(black, transparent); */
 }
 
 .feature-img {

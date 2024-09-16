@@ -7,7 +7,11 @@ import "swiper/swiper-bundle.css";
 
 function Gyms() {
   return (
-    <div className="black-section" style={{ backgroundColor: "#393937" }}>
+    <div
+      id="Discover"
+      className="black-section"
+      style={{ backgroundColor: "#393937" }}
+    >
       <Container maxWidth="sm">
         <Typography variant="h4" align="center" gutterBottom>
           Featured Gyms

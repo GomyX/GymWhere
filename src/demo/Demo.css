@@ -1,0 +1,61 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  background-image: url("../../public/images/Desktop - 1.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0px;
+  /* height: calc(100vh - 100px); */
+  height: 200vh;
+}
+
+.left-section,
+.right-section {
+  /* background-color: blue; */
+  /* width: 50%; */
+}
+
+.txt-section {
+  /* position: relative; */
+}
+
+.down-arrow {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  width: 0;
+  height: 26px;
+  border: 2px solid;
+  border-radius: 2px;
+  color: white;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -9px;
+  width: 15px;
+  height: 15px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}

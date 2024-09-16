@@ -2,9 +2,10 @@ import { Button, Container, Typography } from "@mui/material";
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 //import { useNavigate } from "react-router-dom";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 const Intro = () => {
-  //const nav = useNavigate();
+  // const nav = useNavigate();
   return (
     <div id="Home">
       <Container sx={{ display: "flex", alignItems: "center" }}>
@@ -30,16 +31,23 @@ const Intro = () => {
           <Button
             variant="contained"
             sx={{
-              borderRadius: "10px",
+              borderRadius: 4,
               backgroundColor: "#f29603",
               p: 2,
+              fontSize: "1.1em",
               fontWeight: "bold",
+              letterSpacing: "1px",
+              transition: "0.3s ease",
               ml: { xs: 2, sm: 0 },
             }}
-            //onClick={() => nav("/signup")}
+            className="main-btn"
+            onClick={() => {
+              const pricing = document.getElementById("pricing");
+              pricing.scrollIntoView({ behavior: "smooth" });
+            }}
           >
-            Subscriptions{" "}
-            <ArrowForwardIcon sx={{ paddingLeft: "10px", width: "50px" }} />
+            Subscriptions <KeyboardArrowRightIcon />
+            {/* <ArrowForwardIcon sx={{ paddingLeft: "10px", width: "50px" }} /> */}
           </Button>
         </div>
         {/* <div className="img-section">

@@ -35,7 +35,11 @@ const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
 function Pricing() {
   const [pricing, setPricing] = React.useState("Monthly");
   return (
-    <div className="black-section" style={{ backgroundColor: "black" }}>
+    <div
+      id="pricing"
+      className="black-section"
+      style={{ backgroundColor: "black" }}
+    >
       <Container maxWidth="sm">
         <Typography variant="h4" align="center" gutterBottom>
           OUR MEMBERSHIP PLANS
